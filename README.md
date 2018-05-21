@@ -1,1 +1,1 @@
-# hackerRank
+# hacker Rank
