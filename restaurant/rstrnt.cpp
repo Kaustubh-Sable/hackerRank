@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/restaurant
 #include<iostream>
 using namespace std;
 int main()
@@ -10,7 +11,7 @@ int main()
 	x=l*b;
 	for(i=1;i<=x/2;i++)
 	{
-		if(x%(i*i)==0)
+		if(x%(i*i)==0 && l%i==0 && b%i==0)
 			j=i;
 	}
 	i=j*j;
